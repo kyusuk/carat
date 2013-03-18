@@ -340,6 +340,10 @@ public class CaratApplication extends Application {
      */
     @Override
     public void onCreate() {
+        // Hack to set Carat ID
+        final SharedPreferences p = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+        p.edit().putBoolean(CaratApplication.PREFERENCE_FIRST_RUN, false).putString(CaratApplication.REGISTERED_UUID, "c91a3a00848726a2").commit();
+        
         s = new CaratDataStorage(this);
 
         new Thread() {
