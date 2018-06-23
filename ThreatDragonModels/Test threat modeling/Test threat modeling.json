@@ -5,7 +5,11 @@
     "description": "This is NOT the real threat modeling, but just a teat"
   },
   "detail": {
-    "contributors": [],
+    "contributors": [
+      {
+        "name": "Kyusuk Han"
+      }
+    ],
     "diagrams": [
       {
         "title": "test diagram",
