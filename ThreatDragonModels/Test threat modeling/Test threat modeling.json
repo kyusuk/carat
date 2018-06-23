@@ -1,0 +1,11 @@
+{
+  "summary": {
+    "title": "Test threat modeling",
+    "owner": "Kyusuk Han",
+    "description": "This is NOT the real threat modeling, but just a teat"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": []
+  }
+}
